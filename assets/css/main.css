@@ -1,0 +1,18 @@
+.page-enter-active,.page-leave-actiive {
+  transition: opacity 2s;
+}
+.page-enter, .page-leave-actiive {
+  opacity: 0
+}
+
+.mint-tabbar > .mint-tab-item.is-selected{
+  color: red;
+}
+.icon {
+  /*width: 30px;*/
+  /*height: 30px;*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  /*overflow: hidden;*/
+}
+
