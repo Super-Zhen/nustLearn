@@ -64,11 +64,14 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    postcss: [
-      require('postcss-px2rem')({
-        remUnit: 75
-      })
-    ],
+    // postcss: [
+    //   require('postcss-px2rem')({
+    //     remUnit: 75
+    //   })
+    // ],
+    postcss: function () {
+      return [require('postcss-px2rem')({ remUnit: 75 })] // 设置基准值，75是以iphone6的标准
+    },
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {

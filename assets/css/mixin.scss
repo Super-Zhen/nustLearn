@@ -13,11 +13,11 @@ $font-size: 16px;
 }
 
 .mint-header {
-  height: 80px;
-  font-size: 30px;
+  height: 40px;
+  font-size: 20px;
 }
 /deep/ .mintui {
-  font-size: 30px;
+  font-size: 20px;
 }
 // 设置字体
 @mixin font-dpr($font-size){

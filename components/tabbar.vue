@@ -68,7 +68,7 @@ export default {
     text-decoration: none
   }
   .font40{
-    font-size:40px;
+    font-size:26px;
     margin-bottom: px2rem(6px);
   }
   .font16{
